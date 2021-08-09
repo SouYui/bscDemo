@@ -1,0 +1,195 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+    /*  Fuentes */
+    @font-face{
+        font-family: "TrebuchetMS";
+        src: url('fonts/TrebuchetMS.ttf');
+        font-weight: normal;
+        font-style: normal;
+    }
+    
+    @font-face{
+        font-family: "BebasNeue";
+        src: url('fonts/BebasNeue.otf');
+        font-weight: normal;
+        font-style: normal;
+    }
+    
+    @font-face{
+        font-family: "WebSymbolsRegular";
+        src: url('fonts/websymbols-regular-webfont.eot');
+        src: url('fonts/websymbols-regular-webfont.eot?#iefix') format('embedded-opentype'),
+             url('fonts/websymbols-regular-webfont.woff') format('woff'),
+             url('fonts/websymbols-regular-webfont.ttf') format('truetype'),
+             url('fonts/websymbols-regular-webfont.svg#WebSymbolsRegular') format('svg');
+        font-weight: normal;
+        font-style: normal;
+    }
+
+    .symbol {
+        font-family: "WebSymbolsRegular";
+    }
+
+    .bebas {
+        font-family: "BebasNeue";
+    }
+
+    .trebuchet {
+        font-family: "TrebuchetMS";
+    }
+}
+
+@layer components {
+
+    /*      Menu Components     */
+
+    .menu-ul {
+        @apply 
+            flex 
+            flex-row 
+            h-20 
+            items-center 
+            justify-end 
+            text-2xl 
+            text-center;
+    }
+
+    .menu-item {
+        @apply 
+            flex 
+            flex-row 
+            mr-5 
+            ml-5 
+            tracking-wider 
+            flex-none 
+            hover:text-blueGray 
+            transform 
+            hover:scale-125;
+    }
+
+    .menu-item-a {
+        @apply 
+            bebas 
+            block 
+            ml-3
+            mt-1 
+            transition 
+            duration-200;
+    }
+
+    /*      Cards Components     */
+
+    .card {
+        @apply 
+            group
+            flex-1
+            h-80
+            border-2
+            border-gray200
+            shadow-md
+            bg-white
+            overflow-hidden
+            m-5
+            pl-5
+            pt-5
+            mt-10
+            cursor-pointer
+            transition
+            duration-300
+            hover:bg-black;
+    }
+
+    .card-icon {
+        font-family: "WebSymbolsRegular";
+        @apply 
+            block
+            w-full
+            h-32
+            text-5xl
+            text-center
+            mt-12
+            mx-auto
+            transition
+            duration-300;
+    }
+
+    .card-category {
+        font-family: "TrebuchetMS";
+        @apply
+            w-full
+            h-12
+            text-xl
+            font-bold
+            text-center
+            text-bscPrimary
+            transition
+            duration-300
+    }
+
+    .card-description {
+        font-family: "TrebuchetMS";
+        @apply
+            text-center
+            text-lightBlue-400
+            text-base
+            transition
+            duration-300
+    }
+
+
+    .footer-box {
+        font-family: "TrebuchetMS";
+        @apply
+            flex-1
+            w-80
+            h-96
+            m-10
+            text-center
+            text-white;
+    }
+
+    .footer-header {
+        font-family: "BebasNeue";
+        background: url('../img/pxgray.png'), white;
+        @apply
+            tracking-wide
+            text-center
+            text-4xl
+            text-black
+            rounded-md
+            p-1.5
+            mb-4;
+    }
+
+    .footer-menu {
+        @apply
+            text-left 
+            m-5 
+            text-2xl;
+    }
+
+    .footer-menu li {
+        @apply
+            mt-3
+            p-1
+            border-b-2
+            border-gray200
+            transition
+            duration-300;
+    }
+
+    .footer-menu li a {
+        @apply
+            block
+            h-10
+            transition
+            duration-300
+            text-lightBlue-400
+            hover:text-white;
+    }
+
+
+}
