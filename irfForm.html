@@ -1,0 +1,416 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>BSC IRF´s Form</title>
+  <link rel="stylesheet" href="bootstrap/css/bootstrap.min.css" />
+  <link rel="stylesheet" type="text/css" href="css/styles.css" />
+</head>
+
+<body class="bg-body-pattern bg-scroll">
+  <!--     Header Begin   -->
+  <header id="header" class="bg-bscPrimary h-20 text-white">
+    <div class="container mx-auto flex flex-row">
+      <div id="logo" class="flex flex-1">
+        <div class="w-64 p-0.5 mt-1 ml-36 cursor-pointer items-center">
+          <img src="./img/bscLogo.png" alt="Logo Boston Scientific" class="h-16" />
+        </div>
+      </div>
+
+      <nav class="flex flex-1 ml-80">
+        <ul class="menu-ul">
+          <li class="menu-item">
+            <span class="symbol">,</span>
+            <a href="#" class="menu-item-a">ABOUT</a>
+          </li>
+        </ul>
+        <ul class="menu-ul">
+          <li class="menu-item">
+            <span class="symbol">S</span>
+            <a href="#" class="menu-item-a">SUCCESS FACTORS</a>
+          </li>
+        </ul>
+        <ul class="menu-ul">
+          <li class="menu-item">
+            <span class="symbol">U</span>
+            <a href="#" class="menu-item-a">LOGIN</a>
+          </li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+  <!--     Header End   -->
+
+  <!--    Information Begin   -->
+  <div class="container bg-blueGray p-10">
+    <div class="row">
+      <div class="col">
+        <h2 class="h1">Formulario de selección de IRF's</h2>
+      </div>
+    </div>
+
+    <div class="row">
+      <div class="col">
+        <img class="img-responsive mt-40" src="img/bscLogo.png" alt="Logo de Boston Scientific" />
+      </div>
+
+      <div class="col">
+        <form class="form">
+          <div class="mb-3">
+            <label for="irfTitle" class="form-label">IRF Title</label>
+            <input type="text" class="form-control" id="irfTitle" aria-describedby="titleHelp" />
+            <div id="titleHelp" class="form-text">
+              We'll never share your email with anyone else.
+            </div>
+          </div>
+
+          <div class="mb-3">
+            <label class="form-label">Country</label>
+            <select class="form-select" aria-label="Country">
+              <option selected>----- Select country -----</option>
+              <option value="1">Mexico</option>
+              <option value="2">USA</option>
+              <option value="3">Canada</option>
+            </select>
+          </div>
+
+          <div class="mb-3">
+            <label class="form-label">Division</label>
+            <select class="form-select" aria-label="Division">
+              <option selected>----- Select Division ------</option>
+              <option value="1">Endoscopy</option>
+              <option value="2">Cardiology</option>
+              <option value="3">Neuromodularion</option>
+            </select>
+          </div>
+
+          <div class="mb-3">
+            <label for="irfTitle" class="form-label">Date of activity</label>
+            <input type="text" class="form-control" id="irfTitle" aria-describedby="titleHelp" />
+            <div id="titleHelp" class="form-text">Check your dates</div>
+
+            <label for="irfTitle" class="form-label">To</label>
+            <input type="text" class="form-control" id="irfTitle" aria-describedby="titleHelp" />
+            <div id="titleHelp" class="form-text">Check your dates</div>
+          </div>
+        </form>
+      </div>
+    </div>
+
+    <div class="row mb-3">
+      <h3 class="h2 mb-2">IRF Type Selection <small class="text-muted">Select yours</small> </h3>
+      <div class="accordion accordion-flush" id="accordionFlushExample">
+        <div class="accordion-item">
+          <h2 class="accordion-header" id="flush-headingOne">
+            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+              data-bs-target="#flush-collapseOne" aria-expanded="false" aria-controls="flush-collapseOne">
+              Product Training
+            </button>
+          </h2>
+          <div id="flush-collapseOne" class="accordion-collapse collapse p-3" aria-labelledby="flush-headingOne"
+            data-bs-parent="#accordionFlushExample">
+
+            <h5 class="h3">BSC - Conducted Product Training & Education - No Speakers/Trainers Requested</h5>
+
+            <p class="h5">Required data</p>
+            <ul class="list-group">
+              <li class="list-group-item">Venue name</li>
+              <li class="list-group-item">Event Location City</li>
+              <li class="list-group-item">Event Location Country</li>
+              <li class="list-group-item">HCP/PO Type</li>
+              <li class="list-group-item">Activity Description</li>
+              <li class="list-group-item">HCP/PO Selection Criteria</li>
+              <li class="list-group-item">Legitimate Purpose/Need Justification</li>
+              <li class="list-group-item">Message Comments</li>
+            </ul>
+
+            <div class="container mt-2">
+              <div class="row">
+                <p class="h5">Documents required</p>
+                <div class="col">
+                  <ul class="list-group">
+                    <li class="list-group-item active" aria-current="true">Speakers/Trainers</li>
+                    <li class="list-group-item">Copy of final agenda of BSC - organized event program</li>
+                    <li class="list-group-item">Participant list</li>
+                    <li class="list-group-item">Invitation letter</li>
+                    <li class="list-group-item">Detail of expenses related to the event</li>
+                    <li class="list-group-item">Upload other documents and country requirements. (If necesary)</li>
+                    <li class="list-group-item">BSC Draft Agreement template dully filled</li>
+                    <li class="list-group-item">CV or similar documentation of HCP/PO's qualifications (No +2 yerars
+                      old)</li>
+                    <li class="list-group-item">An approved annual needs assesment. (If applicable)</li>
+                    <li class="list-group-item">If Speaker/Trainer under a Service Agreement <br />Only indicate IRF
+                      number of the Service Agreement & Attach Service Agreement </li>
+                  </ul>
+                </div>
+                <div class="col">
+                  <ul class="list-group">
+                    <li class="list-group-item active" aria-current="true">No Speakers/Trainers</li>
+                    <li class="list-group-item">Copy of final agenda of BSC - organized event program</li>
+                    <li class="list-group-item">Participant list</li>
+                    <li class="list-group-item">Invitation letter</li>
+                    <li class="list-group-item">Detail of expenses related to the event</li>
+                    <li class="list-group-item">Upload other documents and country requirements. (If necesary)</li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+            <div id="documentPTHelp" class="form-text mb-2">
+              Make sure that this is your IRF type. You should have all the documentation and data needed to continue.
+            </div>
+
+            <div class="container mt-3 bg-bscGray rounded p-2">
+              <p class="h5 mb-2">Data needed</p>
+              <div class="row mb-2">
+                <div class="col">
+                  <label for="venuePTEducation" class="form-label">Venue Name</label>
+                  <input type="text" class="form-control" id="venuePTEducation" aria-describedby="titleHelp" />
+
+                  <div class="mb-3">
+                    <label class="form-label">Country</label>
+                    <select class="form-select" aria-label="Country">
+                      <option selected>----- Select country -----</option>
+                      <option value="1">Mexico</option>
+                      <option value="2">USA</option>
+                      <option value="3">Canada</option>
+                    </select>
+                  </div>
+
+                </div>
+
+                <div class="col">
+                  <label for="cityPTEducation" class="form-label">Event Location City</label>
+                  <input type="text" class="form-control" id="cityPTEducation" aria-describedby="titleHelp" />
+
+                  <label for="hpPTEducation" class="form-label">HCP/PO Type</label>
+                  <input type="text" class="form-control" id="hpPTEducation" aria-describedby="titleHelp" />
+                </div>
+              </div>
+              <div class="row mb-2">
+                <div class="col">
+                  <div class="mb-3">
+                    <label for="activityDescription" class="form-label">Activity Description</label>
+                    <textarea class="form-control" id="activityDescription" rows="3"></textarea>
+                  </div>
+                  <div class="mb-3">
+                    <label for="legitimatePurpose" class="form-label">Legitimate Purpose/Need Justification</label>
+                    <textarea class="form-control" id="legitimatePurpose" rows="3"></textarea>
+                  </div>
+                </div>
+                <div class="col">
+                  <div class="mb-3">
+                    <label for="hpSelection" class="form-label">HCP/PO Selection Criteria</label>
+                    <textarea class="form-control" id="hpSelection" rows="3"></textarea>
+                  </div>
+                  <div class="mb-3">
+                    <label for="messageComments" class="form-label">Message Comments</label>
+                    <textarea class="form-control" id="messageComments" rows="3"></textarea>
+                  </div>
+                </div>
+              </div>
+              <p class="h5 mb-2">Documentation needed</p>
+              <div class="row mb-2">
+                <div class="col">
+                  <p class="h6 mb-2">General Speakers and No Speakers/Trainers</p>
+                  <div class="input-group mb-3">
+                    <input id="finalAgenda" type="text" class="form-control"
+                      placeholder="Copy of final agenda of BSC - organized event program"
+                      aria-label="Copy of final agenda of BSC - organized event program"
+                      aria-describedby="button-addon">
+                    <button class="btn btn-outline-primary" type="button" id="button-addon2">Select document</button>
+                  </div>
+                  <div class="input-group mb-3">
+                    <input id="participantList" type="text" class="form-control" placeholder="Participant list"
+                      aria-label="Participant list" aria-describedby="button-addon2">
+                    <button class="btn btn-outline-primary" type="button" id="button-addon2">Select document</button>
+                  </div>
+                  <div class="input-group mb-3">
+                    <input id="invitationLetter" type="text" class="form-control" placeholder="Invitation letter"
+                      aria-label="Invitation letter" aria-describedby="button-addon2">
+                    <button class="btn btn-outline-primary" type="button" id="button-addon2">Select document</button>
+                  </div>
+                  <div class="input-group mb-3">
+                    <input id="detailExpenses" type="text" class="form-control"
+                      placeholder="Detail of expenses related to the event"
+                      aria-label="Detail of expenses related to the event" aria-describedby="button-addon2">
+                    <button class="btn btn-outline-primary" type="button" id="button-addon2">Select document</button>
+                  </div>
+                  <div class="input-group mb-3">
+                    <input id="otherdocuments" type="text" class="form-control"
+                      placeholder="Other documents and country requirements"
+                      aria-label="Other documents and country requirements" aria-describedby="button-addon2">
+                    <button class="btn btn-outline-primary" type="button" id="button-addon2">Select document</button>
+                  </div>
+                </div>
+                <div class="col">
+                  <p class="h6 mb-2">Spleakers/Trainers</p>
+                  <div class="input-group mb-3">
+                    <input id="draftAgreement" type="text" class="form-control"
+                      placeholder="BSC Draft Agreement template" aria-label="BSC Draft Agreement template"
+                      aria-describedby="button-addon">
+                    <button class="btn btn-outline-primary" type="button" id="button-addon2">Select document</button>
+                  </div>
+                  <div class="input-group mb-3">
+                    <input id="cvSimilarDocs" type="text" class="form-control"
+                      placeholder="CV or similar documentation of HCP/PO's"
+                      aria-label="CV or similar documentation of HCP/PO's" aria-describedby="button-addon2">
+                    <button class="btn btn-outline-primary" type="button" id="button-addon2">Select document</button>
+                  </div>
+                  <div class="input-group mb-3">
+                    <input id="approvedAnnualNeeds" type="text" class="form-control"
+                      placeholder="Approved annual needs assesment" aria-label="Approved annual needs assesment"
+                      aria-describedby="button-addon2">
+                    <button class="btn btn-outline-primary" type="button" id="button-addon2">Select document</button>
+                  </div>
+                  <div class="input-group mb-3">
+                    <input id="serviceAgreement" type="text" class="form-control"
+                      placeholder="IRF number of the Service Agreement" aria-label="IRF number of the Service Agreement"
+                      aria-describedby="button-addon2">
+                    <button class="btn btn-outline-primary" type="button" id="button-addon2">Select document</button>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div id="documentPTHelp" class="form-text mb-2">
+              Make sure that you have uploaded all the documents and data
+            </div>
+
+            <button type="submit" class="btn btn-outline-primary">This is my IRF, let's continue</button>
+
+          </div>
+        </div>
+
+        <div class="accordion-item">
+          <h2 class="accordion-header" id="flush-headingTwo">
+            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+              data-bs-target="#flush-collapseTwo" aria-expanded="false" aria-controls="flush-collapseTwo">
+              Arrangement for services
+            </button>
+          </h2>
+          <div id="flush-collapseTwo" class="accordion-collapse collapse" aria-labelledby="flush-headingTwo"
+            data-bs-parent="#accordionFlushExample">
+            <div class="accordion-body">Placeholder content for this accordion, which is intended to demonstrate the
+              <code>.accordion-flush</code> class. This is the second item's accordion body. Let's imagine this being
+              filled with some actual content.
+            </div>
+          </div>
+        </div>
+
+        <div class="accordion-item">
+          <h2 class="accordion-header" id="flush-headingThree">
+            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+              data-bs-target="#flush-collapseThree" aria-expanded="false" aria-controls="flush-collapseThree">
+              Donations
+            </button>
+          </h2>
+          <div id="flush-collapseThree" class="accordion-collapse collapse" aria-labelledby="flush-headingThree"
+            data-bs-parent="#accordionFlushExample">
+            <div class="accordion-body">Placeholder content for this accordion, which is intended to demonstrate the
+              <code>.accordion-flush</code> class. This is the third item's accordion body. Nothing more exciting
+              happening here in terms of content, but just filling up the space to make it look, at least at first
+              glance, a bit more representative of how this would look in a real-world application.
+            </div>
+          </div>
+        </div>
+
+        <div class="accordion-item">
+          <h2 class="accordion-header" id="flush-headingFour">
+            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+              data-bs-target="#flush-collapseFour" aria-expanded="false" aria-controls="flush-collapseFour">
+              Other Meetings
+            </button>
+          </h2>
+          <div id="flush-collapseFour" class="accordion-collapse collapse" aria-labelledby="flush-headingFour"
+            data-bs-parent="#accordionFlushExample">
+            <div class="accordion-body">Placeholder content for this accordion, which is intended to demonstrate the
+              <code>.accordion-flush</code> class. This is the third item's accordion body. Nothing more exciting
+              happening here in terms of content, but just filling up the space to make it look, at least at first
+              glance, a bit more representative of how this would look in a real-world application.
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="row mb-3">
+      <div class="mb-3 form-check">
+        <input type="checkbox" class="form-check-input" id="exampleCheck1" />
+        <label class="form-check-label" for="exampleCheck1">Confirmo de leído y para llenar el IRF</label>
+      </div>
+
+      <button type="button" class="btn btn-primary" id="liveToastBtn">Submit search</button>
+
+      <div class="position-fixed bottom-0 end-0 p-3" style="z-index: 11">
+        <div id="liveToast" class="toast" role="alert" aria-live="assertive" aria-atomic="true">
+          <div class="toast-header">
+            <!-- <img src="img/bscLogo.png" class="rounded me-2" alt="..."> -->
+            <strong class="me-auto">Envío de formulario </strong>
+            <small>Just Now</small>
+            <button type="button" class="btn-close" data-bs-dismiss="toast" aria-label="Close"></button>
+          </div>
+          <div class="toast-body">
+            Hello, world! This is a toast message.
+          </div>
+        </div>
+      </div>
+    </div>
+    <!--    Information End   -->
+
+    <!--        Footer      -->
+    <footer id="footer" class="w-full h-auto bg-black text-white overflow-hidden">
+      <div class="containter w-11/12 mx-auto flex flex-row">
+        <div id="menu-footer" class="footer-box">
+          <h5 class="footer-header">Menu</h5>
+          <ul class="footer-menu">
+            <li class="">
+              <a href="#">INICIO</a>
+            </li>
+            <li>
+              <a href="#">SUCCESS FACTORS</a>
+            </li>
+            <li>
+              <a href="#">CONTACTOS</a>
+            </li>
+            <li>
+              <a href="#">ABOUT</a>
+            </li>
+          </ul>
+        </div>
+
+        <div id="location" class="footer-box">
+          <h5 class="footer-header">¿Dónde estamos?</h5>
+          <iframe
+            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d941.0291788367333!2d-99.18250047081553!3d19.364098299182704!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x85d1ff9acb983cd1%3A0xacf7e89b71f9032d!2sMercado%20Libre%20M%C3%A9xico!5e0!3m2!1ses-419!2smx!4v1628542540010!5m2!1ses-419!2smx"
+            width="600" height="450" style="border: 0" allowfullscreen="" loading="lazy" class="
+              w-full
+              h-72
+              mt-3
+              border-4 border-bscGray
+              rounded-md
+              shadow-md
+            "></iframe>
+        </div>
+
+        <div id="information" class="footer-box">
+          <h5 class="footer-header">Developed with</h5>
+          <p>
+            <img src="./img/reactLogo-side.png" class="block mx-auto h-20 mb-10" />
+          </p>
+
+          <h5 class="footer-header">Developed by</h5>
+          <p>
+            <span class="symbol">A</span>
+            <a href="#">Sou Akiyama</a>
+          </p>
+        </div>
+      </div>
+    </footer>
+
+    <script type="text/javascript" src="jquery/jquery-3.6.0.min.js"></script>
+    <script type="text/javascript" src="bootstrap/js/bootstrap.min.js"></script>
+    <script type="text/javascript" src="js/Toast.js"></script>
+</body>
+
+</html>
